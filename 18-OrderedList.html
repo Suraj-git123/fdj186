@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists</title>
+    <style>
+        .options{
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+        }
+        .courses{
+            border: 2px solid gray;
+            width: 100px;
+            height: 150px;
+            overflow: auto;
+            list-style: none;
+             
+        }
+        .course-title{
+            font-weight: bold;
+            color: chocolate;
+            font-family: fantas;
+            background-color: aqua;
+        }
+        .courses li{
+            cursor: grab; 
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <ol type="A">
+        <li>Electronics
+            <ol type="a">
+                <li>Smartphones</li>
+                    <ol type="I">
+                        <li>Samsung
+                            <ol type="i">
+                                <li>Galaxy S25</li>
+                                <li>Galaxy S24FE</li>
+
+                            </ol>
+                        </li>
+                        <li>Apple</li>
+                        <li>Nokia</li>
+                    </ol>
+                <li>Laptops
+                    <ol type="I">
+                        <li>HP</li>
+                        <li>Dell</li>
+                        <li>Macbook</li>
+                    </ol>
+                </li>
+                <li>Tablets
+                    <ol type="I">
+                        <li>Samsung</li>
+                        <li>ipad</li>
+                    </ol>
+                </li>       
+            </ol>
+    <li>fashion</li>
+    <li>Home</li>
+    <li>Sports</li>
+    </ol>
+    <hr>
+    <ol type="1">
+        <li>What is the capital of India ?
+            <ol class="options" type="a" >
+                <li>Delhi</li>
+                <li>Mumbai</li>
+                <li>Chennai</li>
+                <li>Kolkata</li>
+            </ol>
+        </li>
+
+    </ol>
+    <hr >
+    <h2> Scrollable List</h2>
+    <ol type="1" class="courses"><span class="course-title"> Courses </span>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>Java Script</li>
+        <li>Angular</li>
+        <li>React</li>
+        <li>Core java</li>
+        <li>JDBC</li>
+        <li>Hibernate</li>
+        <li>Spring</li>
+        <li>Springboot</li>
+        <li>DevOps</li>
+    </ol>
+
+</body>
+</html>
