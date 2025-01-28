@@ -14,6 +14,8 @@ public class Test {
 	public void m4(){
 		System.out.println("Method m4()");
 	}	
+	public void m5(){
+	}
 
 	public static void main(String[] args) {
 		System.out.println("welcome to Github");
